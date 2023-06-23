@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+	<style>
+
+  form {
+    width: 30%;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 15px;
+	margin-top: 150px;
+  }
+  label, input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  label {
+    font-weight: bold;
+  }
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+  
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  h1
+  {
+  padding: 20px;
+  
+  }
+  body
+  {
+  background: linear-gradient(to bottom, pink, purple);
+}
+   a { color:  #45a049 } 
+</style>
+
+<header>
+</header>
+
+<body>
+<center>
+  <h1> Te rog introdu datele </h3>
+  </center>
+<form action="connect.php" method="post">
+  <label for="username">Username:</label>
+  <input type="text" name="username" required>
+  <br>
+  <label for="password">Password:</label>
+  <input type="password" name="password" required>
+  <br>
+  <input type="submit" value="Login">	
+
+</form>
+
+<a style="font-size: 28px "href="http://davos.umfst.ro:60001/" > Apasa aici pt a schimba parola </a>
+</body>
+<footer>
+</footer>
+
+</html>
