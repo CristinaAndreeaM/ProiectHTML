@@ -1,0 +1,34 @@
+body
+  {
+   background-image: url("https://pixy.org/src2/570/5707548.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+    
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: #FEE8D4;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 15px 40px;
+ 
+}
+
+li a:hover {
+  background-color: #E6CDAE;
+}
